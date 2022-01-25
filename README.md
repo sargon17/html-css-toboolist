@@ -1,2 +1,2 @@
-# html-css-toboolist
+# toboolist
 Homework: Boolean ToDo App 
