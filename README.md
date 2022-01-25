@@ -1,2 +1,2 @@
-# toboolist
+# Tobolist
 Homework: Boolean ToDo App 
