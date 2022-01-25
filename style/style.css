@@ -1,6 +1,7 @@
 /* general */
 *{
     font-family: 'Open Sans', sans-serif;
+    color: #031732;
 }
 body{
     background: #f6f8f9;
@@ -29,6 +30,29 @@ button:hover{
 }
 .lt-padding-40{
     padding-left: 40px ;
+}
+
+.simbol-element{
+    display: inline-block;
+    font-size: 10px;
+    height: 16px;
+    width: 16px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding-left: 3.5px;
+}
+.completed{
+    border: 1px solid #64c0a9;
+    color: #64c0a9;
+}
+.uncompleted{
+    border: 1px solid #eb554c;
+    color: #eb554c;
+}
+
+.sticker{
+    font-size: 10px;
+    color: #fff;
 }
 /* Reusable components */
 
@@ -63,7 +87,7 @@ main{
 }
 .main-container{
     width: 60vw;
-    height: 60vh;
+    /* height: 60vh; */
     border-radius: 5px;
 }
 
@@ -90,6 +114,21 @@ main{
 }
 /* control & white btn */
 
+
+/* todo list */
+.todo-list-container{
+    width: 100%;
+    min-height: 300px;
+    padding: 40px;
+}
+.section-text{
+    font-weight: 700;
+    font-size: 20px;
+}
+.task-text{
+    font-size: 16px;
+}
+/* todo list */
 
 
 /* main */
