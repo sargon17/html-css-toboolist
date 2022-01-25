@@ -6,12 +6,31 @@ body{
     background: #f6f8f9;
     margin: 0%;
 }
+button{
+    background: #47adf1;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.5em 0.9em;
+    border-radius: 5;
+    /* border: 1px solid #47adf1; */
+}
+button:hover{
+    background: #347eaf;
+    cursor: pointer;
+    transition: .1s;
+    /* border: 1px solid #347eaf; */
+}
 
 
 /* Reusable components */
 .bg-white{
     background: #fff;
 }
+.lt-padding-40{
+    padding-left: 40px ;
+}
+/* Reusable components */
 
 
 
@@ -22,10 +41,56 @@ header{
 }
 .logo-img{
     vertical-align: middle;
+    margin-left: 20px;
 }
 .logo-name{
+    vertical-align: middle;
     display: inline-block;
+    font-size: 28px;
+    color: #031732;
+}
+/* header & logo */
+
+
+
+/* main */
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    width: 60vw;
+    height: 60vh;
+    border-radius: 5px;
 }
 
+/* control & white btn */
+.control-container{
+    height: 5vh;
+    line-height: 4.5vh;
+    border-bottom: 1px solid #f6f8f9;
 
+}
+.control-button{
+    vertical-align: middle;
+}
+.white-btn{
+    background: transparent;
+    border: 1px solid #cad0d4;
+    color: #cad0d4;
+}
+.white-btn:hover{
+    background: #64c0a9;
+    border: #64c0a9;
+    color: #fff;
+    transition: none;
+}
+/* control & white btn */
+
+
+
+/* main */
 
