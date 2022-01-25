@@ -1,143 +1,160 @@
 /* general */
-*{
-    font-family: 'Open Sans', sans-serif;
-    color: #031732;
+* {
+  font-family: "Open Sans", sans-serif;
+  color: #031732;
 }
-body{
-    background: #f6f8f9;
-    margin: 0%;
+body {
+  background: #f6f8f9;
+  margin: 0%;
 }
-button{
-    background: #47adf1;
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    padding: 0.5em 0.9em;
-    border-radius: 5;
-    /* border: 1px solid #47adf1; */
+button {
+  background: #47adf1;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.5em 0.9em;
+  border-radius: 5;
 }
-button:hover{
-    background: #347eaf;
-    cursor: pointer;
-    transition: .1s;
-    /* border: 1px solid #347eaf; */
+button:hover {
+  background: #347eaf;
+  cursor: pointer;
+  transition: 0.1s;
 }
-
 
 /* Reusable components */
-.bg-white{
-    background: #fff;
+.bg-white {
+  background: #fff;
 }
-.lt-padding-40{
-    padding-left: 40px ;
-}
-
-.simbol-element{
-    display: inline-block;
-    font-size: 10px;
-    height: 16px;
-    width: 16px;
-    border: 1px solid grey;
-    border-radius: 50%;
-    padding-left: 3.5px;
-}
-.completed{
-    border: 1px solid #64c0a9;
-    color: #64c0a9;
-}
-.uncompleted{
-    border: 1px solid #eb554c;
-    color: #eb554c;
+.lt-padding-40 {
+  padding-left: 40px;
 }
 
-.sticker{
+
+/*reusable check & cross simbols  */
+.simbol-element {
+  display: inline-block;
+  font-size: 10px;
+  height: 16px;
+  width: 16px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding-left: 3.5px;
+}
+.completed {
+  border: 1px solid #64c0a9;
+  color: #64c0a9;
+}
+.uncompleted {
+  border: 1px solid #eb554c;
+  color: #eb554c;
+  padding-left: 3px;
+}
+/*reusable check & cross simbols  */
+
+
+
+/* reusable sticker & colors */
+.sticker {
     font-size: 10px;
     color: #fff;
     background: #aaa;
-    padding: .4em .7em;
+    padding: 0.4em 0.7em;
     border-radius: 10px;
 }
-.s-blue{
+.s-blue {
     background: #47adf1;
 }
-/* Reusable components */
+.s-purple {
+    background: #9c72e4;
+}
+.s-turquoise {
+    background: #64c0a9;
+}
+.s-orange {
+    background: #f29e33;
+}
+.s-pink {
+    background: #d863a1;
+}
+.s-green {
+    background: #b0c926;
+}
 
-
+.invisible {
+    display: none;
+}
+/* reusable sticker & colors */
+/* Reusable components end */
 
 /* header & logo */
-header{
-    height: 10vh;
-    line-height: 9vh;
+header {
+  height: 10vh;
+  line-height: 9vh;
 }
-.logo-img{
-    vertical-align: middle;
-    margin-left: 20px;
+.logo-img {
+  vertical-align: middle;
+  margin-left: 20px;
 }
-.logo-name{
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 28px;
-    color: #031732;
+.logo-name {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 28px;
+  color: #031732;
 }
 /* header & logo */
-
-
 
 /* main */
-main{
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.main-container{
-    width: 60vw;
-    /* height: 60vh; */
-    border-radius: 5px;
+.main-container {
+  width: 60vw;
+  /* height: 60vh; */
+  border-radius: 5px;
 }
 
 /* control & white btn */
-.control-container{
-    height: 5vh;
-    line-height: 4.5vh;
-    border-bottom: 1px solid #f6f8f9;
-
+.control-container {
+  height: 5vh;
+  line-height: 4.5vh;
+  border-bottom: 1px solid #f6f8f9;
 }
-.control-button{
-    vertical-align: middle;
+.control-button {
+  vertical-align: middle;
 }
-.white-btn{
-    background: transparent;
-    border: 1px solid #cad0d4;
-    color: #cad0d4;
+.white-btn {
+  background: transparent;
+  border: 1px solid #cad0d4;
+  color: #cad0d4;
 }
-.white-btn:hover{
-    background: #64c0a9;
-    border: #64c0a9;
-    color: #fff;
-    transition: none;
+.white-btn:hover {
+  background: #64c0a9;
+  border: #64c0a9;
+  color: #fff;
+  transition: none;
 }
 /* control & white btn */
 
 
 /* todo list */
-.todo-list-container{
-    width: 100%;
-    min-height: 300px;
+.todo-list-container {
+  width: 100%;
+  min-height: 300px;
 }
-.section-list-element{
-    margin: 40px 0;
+.section-list-element {
+  margin: 30px 0;
 }
-.section-text{
-    font-weight: 700;
-    font-size: 20px;
+.section-text {
+  font-weight: 700;
+  font-size: 20px;
 }
 .task-text{
-    font-size: 16px;
+  font-size: 16px;
+  margin: 10px;
 }
 /* todo list */
-
-
 /* main */
-
