@@ -53,6 +53,12 @@ button:hover{
 .sticker{
     font-size: 10px;
     color: #fff;
+    background: #aaa;
+    padding: .4em .7em;
+    border-radius: 10px;
+}
+.s-blue{
+    background: #47adf1;
 }
 /* Reusable components */
 
@@ -119,7 +125,9 @@ main{
 .todo-list-container{
     width: 100%;
     min-height: 300px;
-    padding: 40px;
+}
+.section-list-element{
+    margin: 40px 0;
 }
 .section-text{
     font-weight: 700;
